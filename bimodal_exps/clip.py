@@ -439,7 +439,7 @@ def main(args):
                   use_temp_net=args.isogclr_temp_net, alpha=args.alpha, distributed=args.distributed)
     model = model.to(device)
 
-    if args.evaluate or args.ita_type == 'isogclr_denoise':
+    if (args.evaluate or args.ita_type == 'isogclr_denoise') and not args.evaluate_all:
         assert len(args.checkpoint) > 0
         checkpoint = torch.load(args.checkpoint, map_location='cpu') 
         state_dict = checkpoint['model']             
@@ -495,7 +495,14 @@ def main(args):
 
     print("Start training")
     start_time = time.time()    
-    for epoch in range(0, max_epoch):
+    for epoch in range(0, max_epoch):    
+        if args.evaluate and args.evaluate_all:
+            checkpoint_path = args.checkpoint.replace('checkpoint_30.pth', f'checkpoint_{epoch+1}.pth')
+            checkpoint = torch.load(checkpoint_path, map_location='cpu') 
+            state_dict = checkpoint['model']             
+            model_without_ddp.load_state_dict(state_dict, strict=False)  
+            print('load checkpoint from %s' % checkpoint_path)
+
         if not args.evaluate:
             if args.distributed:
                 train_loader.sampler.set_epoch(epoch)
@@ -585,7 +592,7 @@ def main(args):
                 }
                 torch.save(save_obj, os.path.join(args.output_dir, 'checkpoint_'+str(epoch+1)+'.pth'))
                     
-        if args.evaluate: 
+        if args.evaluate and not args.evaluate_all: 
             break
            
         lr_scheduler.step(epoch+warmup_steps+1)  
@@ -634,6 +641,7 @@ if __name__ == '__main__':
     parser.add_argument('--epochs', default=30, type=int)
     parser.add_argument('--warmup_epochs', default=5, type=int)
     parser.add_argument('--cooldown_epochs', default=0, type=int)
+    parser.add_argument('--momentum', default=0.9, type=float, help='for sgd optimizer')
 
     # training & test settings
     parser.add_argument('--use_amp', action='store_true')
@@ -649,6 +657,7 @@ if __name__ == '__main__':
     parser.add_argument('--dist_url', default='env://', help='url used to set up distributed training')
     parser.add_argument('--distributed', action='store_true')
     parser.add_argument('--no-distributed', dest='distributed', action='store_false')
+    parser.add_argument('--evaluate_all', action='store_true')
 
     # output path
     parser.add_argument('--output_dir', default='./output/clip_test')  
