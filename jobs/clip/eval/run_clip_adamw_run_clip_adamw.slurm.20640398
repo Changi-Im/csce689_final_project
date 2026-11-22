@@ -1,0 +1,160 @@
+Current directory: /scratch/user/chan.im/myFolder/03.MachineLearning/Final_project
+HUGGINGFACE_HUB_CACHE: ./checkpoints/huggingface
+Creating retrieval dataset
+len of train_dataset: 100000
+len of coco val: 5000
+Creating model
+Start training
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_1.pth
+Computing features for evaluation...
+/scratch/user/chan.im/myFolder/03.MachineLearning/Final_project/MLProject/lib/python3.11/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+Evaluation time 0:00:27
+coco val: {'txt_r1': 7.34, 'txt_r5': 20.52, 'txt_r10': 30.16, 'txt_r_mean': 19.34, 'img_r1': 4.246471270342677, 'img_r5': 14.018953176856332, 'img_r10': 22.567875564796672, 'img_r_mean': 13.61110000399856, 'r_mean': 16.47555000199928}
+zeroshot: {'zeroshot_top1': 12.402, 'zeroshot_top3': 23.37, 'zeroshot_top5': 29.83, 'zeroshot_top10': 38.96}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_2.pth
+Computing features for evaluation...
+Evaluation time 0:00:15
+coco val: {'txt_r1': 10.26, 'txt_r5': 27.8, 'txt_r10': 38.2, 'txt_r_mean': 25.42, 'img_r1': 6.113799032348354, 'img_r5': 18.457355352073254, 'img_r10': 27.937942340757328, 'img_r_mean': 17.503032241726313, 'r_mean': 21.46151612086316}
+zeroshot: {'zeroshot_top1': 16.058, 'zeroshot_top3': 28.552, 'zeroshot_top5': 35.278, 'zeroshot_top10': 44.568}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_3.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 10.56, 'txt_r5': 28.48, 'txt_r10': 39.78, 'txt_r_mean': 26.27333333333333, 'img_r1': 6.641609020752529, 'img_r5': 20.036786756767565, 'img_r10': 29.68131472669839, 'img_r_mean': 18.786570168072828, 'r_mean': 22.529951750703077}
+zeroshot: {'zeroshot_top1': 17.766, 'zeroshot_top3': 30.818, 'zeroshot_top5': 37.508, 'zeroshot_top10': 46.862}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_4.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 9.34, 'txt_r5': 26.1, 'txt_r10': 37.28, 'txt_r_mean': 24.24, 'img_r1': 7.125434843456356, 'img_r5': 20.05677955935863, 'img_r10': 29.813267223799432, 'img_r_mean': 18.99849387553814, 'r_mean': 21.61924693776907}
+zeroshot: {'zeroshot_top1': 17.426, 'zeroshot_top3': 30.212, 'zeroshot_top5': 36.706, 'zeroshot_top10': 45.862}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_5.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 8.82, 'txt_r5': 25.7, 'txt_r10': 37.2, 'txt_r_mean': 23.906666666666666, 'img_r1': 7.333359990403455, 'img_r5': 21.768163461153986, 'img_r10': 31.41269143108481, 'img_r_mean': 20.17140496088075, 'r_mean': 22.039035813773708}
+zeroshot: {'zeroshot_top1': 17.186, 'zeroshot_top3': 29.61, 'zeroshot_top5': 36.246, 'zeroshot_top10': 45.376}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_6.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 9.26, 'txt_r5': 25.78, 'txt_r10': 36.6, 'txt_r_mean': 23.88, 'img_r1': 7.041465072573874, 'img_r5': 21.208364988604103, 'img_r10': 31.144787876364507, 'img_r_mean': 19.79820597918083, 'r_mean': 21.839102989590415}
+zeroshot: {'zeroshot_top1': 17.11, 'zeroshot_top3': 29.372, 'zeroshot_top5': 36.064, 'zeroshot_top10': 45.102}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_7.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 10.54, 'txt_r5': 28.1, 'txt_r10': 39.32, 'txt_r_mean': 25.986666666666668, 'img_r1': 7.825182934143708, 'img_r5': 21.824143308408974, 'img_r10': 32.38834019752889, 'img_r_mean': 20.679222146693856, 'r_mean': 23.332944406680262}
+zeroshot: {'zeroshot_top1': 17.368, 'zeroshot_top3': 29.85, 'zeroshot_top5': 36.178, 'zeroshot_top10': 44.994}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_8.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 9.86, 'txt_r5': 27.06, 'txt_r10': 37.84, 'txt_r_mean': 24.92, 'img_r1': 7.945139749690112, 'img_r5': 22.62385541205166, 'img_r10': 33.09208684873445, 'img_r_mean': 21.220360670158744, 'r_mean': 23.07018033507937}
+zeroshot: {'zeroshot_top1': 17.762, 'zeroshot_top3': 30.102, 'zeroshot_top5': 36.13, 'zeroshot_top10': 44.678}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_9.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 9.58, 'txt_r5': 26.26, 'txt_r10': 36.46, 'txt_r_mean': 24.100000000000005, 'img_r1': 7.381342716622016, 'img_r5': 21.036426886320925, 'img_r10': 31.036826742372746, 'img_r_mean': 19.818198781771894, 'r_mean': 21.95909939088595}
+zeroshot: {'zeroshot_top1': 18.7, 'zeroshot_top3': 31.558, 'zeroshot_top5': 37.602, 'zeroshot_top10': 46.298}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_10.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 10.58, 'txt_r5': 26.94, 'txt_r10': 38.12, 'txt_r_mean': 25.213333333333335, 'img_r1': 8.121076412491503, 'img_r5': 22.08804830261106, 'img_r10': 32.38834019752889, 'img_r_mean': 20.865821637543817, 'r_mean': 23.039577485438578}
+zeroshot: {'zeroshot_top1': 18.542, 'zeroshot_top3': 31.108, 'zeroshot_top5': 37.67, 'zeroshot_top10': 46.358}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_11.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 10.02, 'txt_r5': 27.04, 'txt_r10': 38.58, 'txt_r_mean': 25.213333333333335, 'img_r1': 8.0011195969451, 'img_r5': 22.339957615258506, 'img_r10': 32.6002639049942, 'img_r_mean': 20.980447039065936, 'r_mean': 23.096890186199637}
+zeroshot: {'zeroshot_top1': 18.27, 'zeroshot_top3': 31.21, 'zeroshot_top5': 37.58, 'zeroshot_top10': 46.652}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_12.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 10.1, 'txt_r5': 28.24, 'txt_r10': 40.18, 'txt_r_mean': 26.173333333333332, 'img_r1': 8.205046183373986, 'img_r5': 22.899756087808388, 'img_r10': 33.12407533288016, 'img_r_mean': 21.409625868020843, 'r_mean': 23.791479600677086}
+zeroshot: {'zeroshot_top1': 18.914, 'zeroshot_top3': 31.772, 'zeroshot_top5': 38.248, 'zeroshot_top10': 47.034}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_13.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.24, 'txt_r5': 29.44, 'txt_r10': 40.94, 'txt_r_mean': 27.206666666666667, 'img_r1': 8.444959814466792, 'img_r5': 23.69946819145108, 'img_r10': 33.91179175496821, 'img_r_mean': 22.01873992029536, 'r_mean': 24.61270329348101}
+zeroshot: {'zeroshot_top1': 18.808, 'zeroshot_top3': 31.336, 'zeroshot_top5': 37.274, 'zeroshot_top10': 45.58}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_14.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.4, 'txt_r5': 29.12, 'txt_r10': 40.46, 'txt_r_mean': 26.993333333333336, 'img_r1': 7.945139749690112, 'img_r5': 22.835779119516975, 'img_r10': 33.0161141988884, 'img_r_mean': 21.265677689365162, 'r_mean': 24.12950551134925}
+zeroshot: {'zeroshot_top1': 19.456, 'zeroshot_top3': 31.962, 'zeroshot_top5': 38.476, 'zeroshot_top10': 46.864}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_15.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.22, 'txt_r5': 29.64, 'txt_r10': 42.04, 'txt_r_mean': 27.633333333333336, 'img_r1': 8.061098004718302, 'img_r5': 23.51553440761326, 'img_r10': 34.15170538606102, 'img_r_mean': 21.909445932797524, 'r_mean': 24.771389633065432}
+zeroshot: {'zeroshot_top1': 18.76, 'zeroshot_top3': 31.276, 'zeroshot_top5': 37.364, 'zeroshot_top10': 45.734}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_16.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.08, 'txt_r5': 29.1, 'txt_r10': 40.4, 'txt_r_mean': 26.86, 'img_r1': 8.101083609900435, 'img_r5': 22.75180934863449, 'img_r10': 33.39597744811868, 'img_r_mean': 21.416290135551204, 'r_mean': 24.138145067775604}
+zeroshot: {'zeroshot_top1': 19.104, 'zeroshot_top3': 32.04, 'zeroshot_top5': 38.226, 'zeroshot_top10': 46.756}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_17.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 10.78, 'txt_r5': 29.42, 'txt_r10': 41.46, 'txt_r_mean': 27.22, 'img_r1': 8.261026030628974, 'img_r5': 23.359590547402934, 'img_r10': 33.6718781238754, 'img_r_mean': 21.764164900635773, 'r_mean': 24.492082450317888}
+zeroshot: {'zeroshot_top1': 19.818, 'zeroshot_top3': 32.944, 'zeroshot_top5': 39.36, 'zeroshot_top10': 47.886}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_18.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.52, 'txt_r5': 30.98, 'txt_r10': 42.58, 'txt_r_mean': 28.36, 'img_r1': 8.796833140069575, 'img_r5': 24.103322803790636, 'img_r10': 34.72349954016554, 'img_r_mean': 22.541218494675253, 'r_mean': 25.450609247337624}
+zeroshot: {'zeroshot_top1': 20.458, 'zeroshot_top3': 33.298, 'zeroshot_top5': 39.176, 'zeroshot_top10': 47.25}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_19.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.74, 'txt_r5': 30.6, 'txt_r10': 41.68, 'txt_r_mean': 28.00666666666667, 'img_r1': 8.868807229397417, 'img_r5': 24.011355911871725, 'img_r10': 34.59954416410093, 'img_r_mean': 22.49323576845669, 'r_mean': 25.24995121756168}
+zeroshot: {'zeroshot_top1': 19.896, 'zeroshot_top3': 32.476, 'zeroshot_top5': 38.46, 'zeroshot_top10': 46.796}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_20.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 10.96, 'txt_r5': 28.98, 'txt_r10': 41.16, 'txt_r_mean': 27.03333333333333, 'img_r1': 8.79283457955136, 'img_r5': 24.183294014154903, 'img_r10': 34.83945779519373, 'img_r_mean': 22.605195462966662, 'r_mean': 24.819264398149997}
+zeroshot: {'zeroshot_top1': 20.318, 'zeroshot_top3': 32.91, 'zeroshot_top5': 39.044, 'zeroshot_top10': 47.574}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_21.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.9, 'txt_r5': 30.9, 'txt_r10': 42.84, 'txt_r_mean': 28.546666666666667, 'img_r1': 8.660882082450318, 'img_r5': 24.09932424327242, 'img_r10': 34.93942180814906, 'img_r_mean': 22.566542711290598, 'r_mean': 25.55660468897863}
+zeroshot: {'zeroshot_top1': 20.448, 'zeroshot_top3': 33.12, 'zeroshot_top5': 39.262, 'zeroshot_top10': 47.716}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_22.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.42, 'txt_r5': 29.7, 'txt_r10': 41.42, 'txt_r_mean': 27.513333333333332, 'img_r1': 8.9527770002799, 'img_r5': 24.339237874365228, 'img_r10': 34.67551681394698, 'img_r_mean': 22.655843896197368, 'r_mean': 25.08458861476535}
+zeroshot: {'zeroshot_top1': 20.678, 'zeroshot_top3': 33.206, 'zeroshot_top5': 39.304, 'zeroshot_top10': 47.612}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_23.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.62, 'txt_r5': 30.46, 'txt_r10': 41.96, 'txt_r_mean': 28.013333333333332, 'img_r1': 8.852812987324564, 'img_r5': 24.075332880163142, 'img_r10': 34.69950817705626, 'img_r_mean': 22.54255134818132, 'r_mean': 25.277942340757328}
+zeroshot: {'zeroshot_top1': 20.984, 'zeroshot_top3': 33.66, 'zeroshot_top5': 39.764, 'zeroshot_top10': 47.83}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_24.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 12.16, 'txt_r5': 31.78, 'txt_r10': 42.9, 'txt_r_mean': 28.94666666666667, 'img_r1': 9.132712223599505, 'img_r5': 25.166939901635413, 'img_r10': 35.603182854172495, 'img_r_mean': 23.3009449931358, 'r_mean': 26.123805829901237}
+zeroshot: {'zeroshot_top1': 21.318, 'zeroshot_top3': 34.056, 'zeroshot_top5': 40.092, 'zeroshot_top10': 48.278}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_25.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.96, 'txt_r5': 31.24, 'txt_r10': 43.5, 'txt_r_mean': 28.900000000000002, 'img_r1': 9.036746771162381, 'img_r5': 24.4791874925027, 'img_r10': 35.09136710784118, 'img_r_mean': 22.869100457168752, 'r_mean': 25.884550228584377}
+zeroshot: {'zeroshot_top1': 21.58, 'zeroshot_top3': 34.612, 'zeroshot_top5': 40.574, 'zeroshot_top10': 48.744}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_26.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 12.28, 'txt_r5': 31.9, 'txt_r10': 43.8, 'txt_r_mean': 29.326666666666664, 'img_r1': 9.044743892198808, 'img_r5': 25.010996041425088, 'img_r10': 35.73513535127354, 'img_r_mean': 23.263625094965814, 'r_mean': 26.29514588081624}
+zeroshot: {'zeroshot_top1': 21.774, 'zeroshot_top3': 34.736, 'zeroshot_top5': 40.856, 'zeroshot_top10': 48.958}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_27.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 12.34, 'txt_r5': 31.88, 'txt_r10': 43.64, 'txt_r_mean': 29.286666666666665, 'img_r1': 9.15270502619057, 'img_r5': 25.174937022671838, 'img_r10': 35.92706625614779, 'img_r_mean': 23.418236101670065, 'r_mean': 26.352451384168365}
+zeroshot: {'zeroshot_top1': 21.782, 'zeroshot_top3': 34.712, 'zeroshot_top5': 40.64, 'zeroshot_top10': 48.748}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_28.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 11.78, 'txt_r5': 31.76, 'txt_r10': 44.06, 'txt_r_mean': 29.2, 'img_r1': 9.248670478627695, 'img_r5': 25.30688951977288, 'img_r10': 35.9910432244392, 'img_r_mean': 23.51553440761326, 'r_mean': 26.35776720380663}
+zeroshot: {'zeroshot_top1': 21.928, 'zeroshot_top3': 34.856, 'zeroshot_top5': 40.804, 'zeroshot_top10': 48.944}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_29.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 12.08, 'txt_r5': 31.74, 'txt_r10': 44.08, 'txt_r_mean': 29.3, 'img_r1': 9.33663881002839, 'img_r5': 25.482826182574275, 'img_r10': 36.16298132672238, 'img_r_mean': 23.660815439775018, 'r_mean': 26.48040771988751}
+zeroshot: {'zeroshot_top1': 21.916, 'zeroshot_top3': 34.828, 'zeroshot_top5': 40.676, 'zeroshot_top10': 48.886}
+load checkpoint from ./output/adamW/clip_cc3m_g0.8_e30/checkpoint_30.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 12.22, 'txt_r5': 32.0, 'txt_r10': 43.68, 'txt_r_mean': 29.3, 'img_r1': 9.256667599664121, 'img_r5': 25.31488664080931, 'img_r10': 36.01103602703027, 'img_r_mean': 23.5275300891679, 'r_mean': 26.41376504458395}
+zeroshot: {'zeroshot_top1': 21.964, 'zeroshot_top3': 34.864, 'zeroshot_top5': 40.716, 'zeroshot_top10': 48.892}
+Training time 1:42:06

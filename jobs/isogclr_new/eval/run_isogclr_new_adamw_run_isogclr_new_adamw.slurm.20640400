@@ -1,0 +1,160 @@
+Current directory: /scratch/user/chan.im/myFolder/03.MachineLearning/Final_project
+HUGGINGFACE_HUB_CACHE: ./checkpoints/huggingface
+Creating retrieval dataset
+len of train_dataset: 100000
+len of coco val: 5000
+Creating model
+Start training
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_1.pth
+Computing features for evaluation...
+/scratch/user/chan.im/myFolder/03.MachineLearning/Final_project/MLProject/lib/python3.11/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+Evaluation time 0:00:17
+coco val: {'txt_r1': 8.18, 'txt_r5': 22.48, 'txt_r10': 32.02, 'txt_r_mean': 20.893333333333334, 'img_r1': 4.094525970650566, 'img_r5': 13.383182054460395, 'img_r10': 20.732536286936703, 'img_r_mean': 12.736748104015888, 'r_mean': 16.81504071867461}
+zeroshot: {'zeroshot_top1': 14.038, 'zeroshot_top3': 26.198, 'zeroshot_top5': 32.546, 'zeroshot_top10': 41.352}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_2.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 10.24, 'txt_r5': 27.26, 'txt_r10': 38.14, 'txt_r_mean': 25.213333333333335, 'img_r1': 6.293734255667959, 'img_r5': 18.461353912591466, 'img_r10': 28.097884761485865, 'img_r_mean': 17.61765764324843, 'r_mean': 21.415495488290883}
+zeroshot: {'zeroshot_top1': 16.792, 'zeroshot_top3': 30.178, 'zeroshot_top5': 37.098, 'zeroshot_top10': 46.198}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_3.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 11.06, 'txt_r5': 28.7, 'txt_r10': 39.84, 'txt_r_mean': 26.53333333333333, 'img_r1': 6.609620536606822, 'img_r5': 19.932824183294013, 'img_r10': 29.981206765564398, 'img_r_mean': 18.841217161821746, 'r_mean': 22.68727524757754}
+zeroshot: {'zeroshot_top1': 18.944, 'zeroshot_top3': 32.376, 'zeroshot_top5': 39.198, 'zeroshot_top10': 48.076}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_4.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 11.92, 'txt_r5': 29.38, 'txt_r10': 39.66, 'txt_r_mean': 26.986666666666665, 'img_r1': 7.393338398176656, 'img_r5': 21.468271422287977, 'img_r10': 31.632612259586548, 'img_r_mean': 20.164740693350392, 'r_mean': 23.57570368000853}
+zeroshot: {'zeroshot_top1': 19.704, 'zeroshot_top3': 33.356, 'zeroshot_top5': 40.192, 'zeroshot_top10': 49.074}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_5.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 11.96, 'txt_r5': 29.44, 'txt_r10': 40.06, 'txt_r_mean': 27.153333333333336, 'img_r1': 7.657243392378744, 'img_r5': 21.480267103842618, 'img_r10': 32.12043664280859, 'img_r_mean': 20.419315713009983, 'r_mean': 23.786324523171658}
+zeroshot: {'zeroshot_top1': 19.762, 'zeroshot_top3': 33.022, 'zeroshot_top5': 39.53, 'zeroshot_top10': 47.5}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_6.pth
+Computing features for evaluation...
+Evaluation time 0:00:16
+coco val: {'txt_r1': 11.88, 'txt_r5': 29.72, 'txt_r10': 40.86, 'txt_r_mean': 27.486666666666668, 'img_r1': 7.741213163261226, 'img_r5': 22.243992162821385, 'img_r10': 32.52429125514815, 'img_r_mean': 20.836498860410256, 'r_mean': 24.161582763538462}
+zeroshot: {'zeroshot_top1': 20.472, 'zeroshot_top3': 33.142, 'zeroshot_top5': 39.692, 'zeroshot_top10': 48.034}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_7.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 11.68, 'txt_r5': 29.64, 'txt_r10': 40.6, 'txt_r_mean': 27.30666666666667, 'img_r1': 8.297013075292895, 'img_r5': 22.919748890399458, 'img_r10': 33.35999040345476, 'img_r_mean': 21.52558412304904, 'r_mean': 24.416125394857854}
+zeroshot: {'zeroshot_top1': 21.026, 'zeroshot_top3': 34.572, 'zeroshot_top5': 40.748, 'zeroshot_top10': 48.816}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_8.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.14, 'txt_r5': 30.58, 'txt_r10': 42.0, 'txt_r_mean': 28.573333333333334, 'img_r1': 8.412971330321085, 'img_r5': 23.26362509496581, 'img_r10': 33.72785797113039, 'img_r_mean': 21.801484798805763, 'r_mean': 25.18740906606955}
+zeroshot: {'zeroshot_top1': 21.224, 'zeroshot_top3': 34.566, 'zeroshot_top5': 41.146, 'zeroshot_top10': 49.49}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_9.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 12.78, 'txt_r5': 31.18, 'txt_r10': 42.56, 'txt_r_mean': 28.840000000000003, 'img_r1': 8.752848974369227, 'img_r5': 24.323243632292375, 'img_r10': 34.91543044503979, 'img_r_mean': 22.663841017233796, 'r_mean': 25.751920508616898}
+zeroshot: {'zeroshot_top1': 22.386, 'zeroshot_top3': 35.552, 'zeroshot_top5': 41.896, 'zeroshot_top10': 49.89}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_10.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 12.24, 'txt_r5': 29.56, 'txt_r10': 40.72, 'txt_r_mean': 27.506666666666664, 'img_r1': 9.004758287016674, 'img_r5': 24.511175976648406, 'img_r10': 35.019393018513334, 'img_r_mean': 22.84510909405947, 'r_mean': 25.175887880363067}
+zeroshot: {'zeroshot_top1': 21.962, 'zeroshot_top3': 35.248, 'zeroshot_top5': 41.314, 'zeroshot_top10': 49.364}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_11.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 11.94, 'txt_r5': 29.08, 'txt_r10': 40.26, 'txt_r_mean': 27.093333333333334, 'img_r1': 9.072733815826302, 'img_r5': 24.207285377264185, 'img_r10': 35.45923467551681, 'img_r_mean': 22.913084622869103, 'r_mean': 25.00320897810122}
+zeroshot: {'zeroshot_top1': 22.618, 'zeroshot_top3': 35.824, 'zeroshot_top5': 41.694, 'zeroshot_top10': 49.442}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_12.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 12.42, 'txt_r5': 30.2, 'txt_r10': 42.56, 'txt_r_mean': 28.393333333333334, 'img_r1': 9.160702147227, 'img_r5': 24.879043544324045, 'img_r10': 35.487224599144305, 'img_r_mean': 23.175656763565115, 'r_mean': 25.784495048449223}
+zeroshot: {'zeroshot_top1': 22.846, 'zeroshot_top3': 36.442, 'zeroshot_top5': 42.588, 'zeroshot_top10': 49.994}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_13.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.86, 'txt_r5': 31.62, 'txt_r10': 42.9, 'txt_r_mean': 29.459999999999997, 'img_r1': 9.548562517493702, 'img_r5': 25.38686073013715, 'img_r10': 35.94306049822064, 'img_r_mean': 23.626161248617166, 'r_mean': 26.54308062430858}
+zeroshot: {'zeroshot_top1': 23.618, 'zeroshot_top3': 36.908, 'zeroshot_top5': 42.654, 'zeroshot_top10': 50.416}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_14.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 12.22, 'txt_r5': 31.08, 'txt_r10': 43.08, 'txt_r_mean': 28.793333333333333, 'img_r1': 9.828461753768643, 'img_r5': 26.01463473149666, 'img_r10': 36.634811467871565, 'img_r_mean': 24.159302651045625, 'r_mean': 26.47631799218948}
+zeroshot: {'zeroshot_top1': 23.728, 'zeroshot_top3': 36.902, 'zeroshot_top5': 42.872, 'zeroshot_top10': 50.224}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_15.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.12, 'txt_r5': 32.18, 'txt_r10': 43.06, 'txt_r_mean': 29.453333333333333, 'img_r1': 9.764484785477228, 'img_r5': 26.298532528289815, 'img_r10': 37.03866608021112, 'img_r_mean': 24.367227797992722, 'r_mean': 26.91028056566303}
+zeroshot: {'zeroshot_top1': 23.842, 'zeroshot_top3': 37.128, 'zeroshot_top5': 42.984, 'zeroshot_top10': 50.158}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_16.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.64, 'txt_r5': 32.3, 'txt_r10': 44.38, 'txt_r_mean': 30.106666666666666, 'img_r1': 10.060378263825022, 'img_r5': 26.414490783318005, 'img_r10': 37.218601303530725, 'img_r_mean': 24.56449011689125, 'r_mean': 27.33557839177896}
+zeroshot: {'zeroshot_top1': 24.526, 'zeroshot_top3': 37.766, 'zeroshot_top5': 43.624, 'zeroshot_top10': 51.08}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_17.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.54, 'txt_r5': 33.3, 'txt_r10': 45.14, 'txt_r_mean': 30.659999999999997, 'img_r1': 9.95241712983326, 'img_r5': 26.62641449078332, 'img_r10': 37.238594106121795, 'img_r_mean': 24.60580857557946, 'r_mean': 27.632904287789728}
+zeroshot: {'zeroshot_top1': 25.024, 'zeroshot_top3': 38.432, 'zeroshot_top5': 44.116, 'zeroshot_top10': 51.74}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_18.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.54, 'txt_r5': 33.36, 'txt_r10': 44.96, 'txt_r_mean': 30.62, 'img_r1': 10.05637970330681, 'img_r5': 26.80235115358471, 'img_r10': 37.454516374105324, 'img_r_mean': 24.77108241033228, 'r_mean': 27.69554120516614}
+zeroshot: {'zeroshot_top1': 25.142, 'zeroshot_top3': 38.348, 'zeroshot_top5': 44.228, 'zeroshot_top10': 51.536}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_19.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.78, 'txt_r5': 32.94, 'txt_r10': 44.56, 'txt_r_mean': 30.426666666666666, 'img_r1': 10.09236674797073, 'img_r5': 26.35051381502659, 'img_r10': 37.07065456435683, 'img_r_mean': 24.50451170911805, 'r_mean': 27.465589187892355}
+zeroshot: {'zeroshot_top1': 25.21, 'zeroshot_top3': 38.33, 'zeroshot_top5': 44.226, 'zeroshot_top10': 51.474}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_20.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 13.86, 'txt_r5': 32.94, 'txt_r10': 44.1, 'txt_r_mean': 30.3, 'img_r1': 10.364268863209245, 'img_r5': 27.965932264384822, 'img_r10': 38.88600103962573, 'img_r_mean': 25.73873405573993, 'r_mean': 28.019367027869965}
+zeroshot: {'zeroshot_top1': 25.82, 'zeroshot_top3': 39.278, 'zeroshot_top5': 45.212, 'zeroshot_top10': 52.374}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_21.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 14.04, 'txt_r5': 33.54, 'txt_r10': 45.88, 'txt_r_mean': 31.153333333333336, 'img_r1': 10.420248710464232, 'img_r5': 27.578071894118118, 'img_r10': 38.53812627454116, 'img_r_mean': 25.512148959707833, 'r_mean': 28.332741146520583}
+zeroshot: {'zeroshot_top1': 25.796, 'zeroshot_top3': 39.25, 'zeroshot_top5': 45.1, 'zeroshot_top10': 52.224}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_22.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 14.02, 'txt_r5': 33.24, 'txt_r10': 45.6, 'txt_r_mean': 30.953333333333337, 'img_r1': 10.392258786836738, 'img_r5': 27.086248950377865, 'img_r10': 37.806389699708106, 'img_r_mean': 25.094965812307567, 'r_mean': 28.024149572820452}
+zeroshot: {'zeroshot_top1': 25.654, 'zeroshot_top3': 39.166, 'zeroshot_top5': 44.876, 'zeroshot_top10': 52.124}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_23.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 14.06, 'txt_r5': 33.32, 'txt_r10': 45.54, 'txt_r_mean': 30.973333333333333, 'img_r1': 10.620176736374905, 'img_r5': 27.913950977648046, 'img_r10': 38.60210324283258, 'img_r_mean': 25.71207698561851, 'r_mean': 28.34270515947592}
+zeroshot: {'zeroshot_top1': 26.05, 'zeroshot_top3': 39.504, 'zeroshot_top5': 45.156, 'zeroshot_top10': 52.246}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_24.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 14.1, 'txt_r5': 33.5, 'txt_r10': 45.48, 'txt_r_mean': 31.026666666666667, 'img_r1': 10.62417529689312, 'img_r5': 27.670038786037026, 'img_r10': 38.55811907713223, 'img_r_mean': 25.617444386687463, 'r_mean': 28.322055526677065}
+zeroshot: {'zeroshot_top1': 26.198, 'zeroshot_top3': 39.6, 'zeroshot_top5': 45.234, 'zeroshot_top10': 52.454}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_25.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 14.14, 'txt_r5': 33.94, 'txt_r10': 45.56, 'txt_r_mean': 31.213333333333335, 'img_r1': 10.484225678755648, 'img_r5': 27.614058938782037, 'img_r10': 38.53012915350474, 'img_r_mean': 25.542804590347476, 'r_mean': 28.378068961840405}
+zeroshot: {'zeroshot_top1': 26.3, 'zeroshot_top3': 39.62, 'zeroshot_top5': 45.35, 'zeroshot_top10': 52.462}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_26.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 14.58, 'txt_r5': 34.52, 'txt_r10': 46.0, 'txt_r_mean': 31.7, 'img_r1': 10.59218681274741, 'img_r5': 27.666040225518813, 'img_r10': 38.582110440241514, 'img_r_mean': 25.613445826169244, 'r_mean': 28.65672291308462}
+zeroshot: {'zeroshot_top1': 26.386, 'zeroshot_top3': 39.778, 'zeroshot_top5': 45.482, 'zeroshot_top10': 52.554}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_27.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 15.0, 'txt_r5': 34.02, 'txt_r10': 46.38, 'txt_r_mean': 31.8, 'img_r1': 10.580191131192771, 'img_r5': 27.43012515494422, 'img_r10': 38.406173777440124, 'img_r_mean': 25.472163354525705, 'r_mean': 28.63608167726285}
+zeroshot: {'zeroshot_top1': 26.514, 'zeroshot_top3': 39.854, 'zeroshot_top5': 45.404, 'zeroshot_top10': 52.634}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_28.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 15.02, 'txt_r5': 34.04, 'txt_r10': 46.46, 'txt_r_mean': 31.840000000000003, 'img_r1': 10.62417529689312, 'img_r5': 27.626054620336678, 'img_r10': 38.59010756127794, 'img_r_mean': 25.613445826169244, 'r_mean': 28.726722913084622}
+zeroshot: {'zeroshot_top1': 26.588, 'zeroshot_top3': 39.964, 'zeroshot_top5': 45.504, 'zeroshot_top10': 52.594}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_29.pth
+Computing features for evaluation...
+Evaluation time 0:00:13
+coco val: {'txt_r1': 15.12, 'txt_r5': 34.22, 'txt_r10': 46.56, 'txt_r_mean': 31.96666666666667, 'img_r1': 10.668159462593467, 'img_r5': 27.6620416650006, 'img_r10': 38.7260586188972, 'img_r_mean': 25.68541991549709, 'r_mean': 28.82604329108188}
+zeroshot: {'zeroshot_top1': 26.534, 'zeroshot_top3': 39.902, 'zeroshot_top5': 45.496, 'zeroshot_top10': 52.546}
+load checkpoint from ./output/adamW/isogclr_new_cc3m_g0.8_e30/checkpoint_30.pth
+Computing features for evaluation...
+Evaluation time 0:00:14
+coco val: {'txt_r1': 14.94, 'txt_r5': 34.12, 'txt_r10': 46.36, 'txt_r_mean': 31.80666666666666, 'img_r1': 10.680155144148106, 'img_r5': 27.498100683753847, 'img_r10': 38.7260586188972, 'img_r_mean': 25.634771482266384, 'r_mean': 28.720719074466523}
+zeroshot: {'zeroshot_top1': 26.584, 'zeroshot_top3': 39.918, 'zeroshot_top5': 45.536, 'zeroshot_top10': 52.62}
+Training time 1:52:48
